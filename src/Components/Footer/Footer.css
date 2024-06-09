@@ -1,10 +1,41 @@
-footer{
+footer {
     justify-content: center;
+    display: flex;
     align-items: center;
-    min-height:12vh;
-    color:white;
-    margin:0px;
+    justify-content: space-evenly;
+    min-height: 12vh;
+    color: white;
     background-color: black;
-
-}
-
+    padding-top: 20px;
+  }
+  
+  .footer-contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-list {
+    float: none;
+    width: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    font-size: 16px;
+    list-style: none; /* Eliminar el estilo predeterminado de la lista */
+    padding: 0 10px; /* Añadir padding a los elementos de la lista */
+  }
+  
+  footer .footer-list li:before {
+    content: '|';
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  footer .footer-list li:first-child:before {
+    content: '';
+  }
+  

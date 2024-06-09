@@ -3,8 +3,18 @@ import "./Footer.css"
 
 const Footer = () => {
   return <footer>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum ut assumenda nisi facilis provident omnis cum perspiciatis perferendis illo ipsa dicta, tempora eaque dolore iste sapiente? Officia, aperiam. Veniam.
-    </p>
+    <div> <b>Lorem ipsum</b></div>
+   
+    <div className="footer-contact">
+      <ul className="footer-list">
+        <li >Accesibilidad</li>
+        <li> Aviso Legal</li>
+        <li>Mapa Web</li>
+        <li>Política de cookies</li>
+        <li>Política de Privacidad</li>
+      </ul>
+    </div>
+   
   </footer>;
 };
 
