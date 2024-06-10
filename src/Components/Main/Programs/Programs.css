@@ -1,0 +1,87 @@
+.program-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .day-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-top: 2px solid #000;
+    align-items: center;
+  }
+  
+  .date {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .films {
+    display: flex;
+    flex: 4;
+  }
+  
+  .film {
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .category {
+    font-weight: bold;
+  }
+  
+  .time {
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+  .title {
+    margin-top: 5px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .title:hover {
+    color: #27728b;
+    font-weight: bold;
+  }
+  
+  .time {
+    margin-top: 5px;
+    font-style: italic;
+  }
+
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.film-details {
+  display: none;
+  margin-top: 10px; 
+}
+
+.film.selected .film-details {
+  display: block;
+}

@@ -1,8 +1,8 @@
 .proyections-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px; /* Espacio entre las columnas y filas */
-    padding: 16px; /* Espacio interno del contenedor */
+    gap: 16px; 
+    padding: 16px; 
     margin: 0 auto;
   }
   
@@ -14,21 +14,29 @@ h2{
    text-decoration: underline;
 }
 
-  article{
+.proyection-movie{
     padding: 16px; 
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    }
+
+  .date-hour{
+    color: white;
+    background-color: rgb(83, 148, 201);
+    padding: 5px;
+    font-weight: bold;
+   
   }
+
+
 
   .image-article{
     width: 100%;
 
   }
   
-  @media (max-width: 600px) {
-    .proyection-container {
-      grid-template-columns: 2fr; 
+  @media (max-width: 900px) {
+    .proyections-container {
+      grid-template-columns: 1fr; /* Cambiar a una columna */
     }
   }
