@@ -3,18 +3,8 @@ import "./Footer.css"
 
 const Footer = () => {
   return <footer>
-    <div> <b>© Filmoteca de Asturias</b></div>
-   
-    <div className="footer-contact">
-      <ul className="footer-list">
-        <li ><a href="#">Accesibilidad</a></li>
-        <li> <a href="#">Aviso Legal</a></li>
-        <li><a href="#">Mapa Web</a></li>
-        <li><a href="#">Política de cookies</a></li>
-        <li><a href="#">Política de Privacidad</a></li>
-      </ul>
-    </div>
-   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum ut assumenda nisi facilis provident omnis cum perspiciatis perferendis illo ipsa dicta, tempora eaque dolore iste sapiente? Officia, aperiam. Veniam.
+    </p>
   </footer>;
 };
 

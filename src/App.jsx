@@ -1,19 +1,18 @@
-import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Footer from "./Components/Footer";
+import { useState } from 'react'
+import './App.css'
+import Header from './Components/Header'
+import Main from './Components/Main'
+import Footer from './Components/Footer'
 
 function App() {
+
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Main />
-        <Footer />
-      </BrowserRouter>
+    <Header/>
+    <Main/>
+    <Footer/> 
     </>
-  );
+  )
 }
 
-export default App;
+export default App

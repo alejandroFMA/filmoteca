@@ -1,17 +1,21 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
 import Frontpage from "./Frontpage/Frontpage";
-import About from "./About/About"
-import Programs from "./Programs/Programs"
+import About from "./About"
+import Newsfeed from "./Newsfeed"
+import Programs from "./Programs"
+import { Routes, Route } from "react-router-dom";
 import './Main.css'
 
 const Main = () => {
   return <main> 
     <Routes>
-      <Route path="/" element={<Frontpage/>}/>
-      <Route path="/filmoteca" element={<About/>}/>
-      <Route path="/programacion" element={<Programs/>}/>
+      <routes path="/" element={<Frontpage/>}/>
+      <routes path="/filmoteca" element={<About/>}/>
+      <routes path="/noticias" element={<Newsfeed/>}/>
+      <routes path="/programas" element={<Programs/>}/>
+      <routes/>
     </Routes>
+  <Frontpage/>
   </main>;
 };
 
