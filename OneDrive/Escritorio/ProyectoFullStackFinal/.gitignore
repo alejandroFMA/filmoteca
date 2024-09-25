@@ -1,0 +1,13 @@
+AppData/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+*.lnk
+*.ini
+Saved Games/
+Searches/
+Videos/
